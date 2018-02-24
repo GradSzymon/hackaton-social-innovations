@@ -9,6 +9,7 @@ import { BikesComponent } from './components/bikes/bikes.component';
 import { ProducentService } from './services/producent.service';
 import { BikeService } from './services/bike.service';
 import { TypeService } from './services/type.service';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { TypeService } from './services/type.service';
     BikesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [ProducentService, BikeService, TypeService],
   bootstrap: [AppComponent]
