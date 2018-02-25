@@ -3,20 +3,18 @@
 <header>
   <img class="bg-image" src="/assets/images/forest.jpg" alt="Some forest picture background">
   <h1>
-      Welcome to {{ title }} learning course!
+      Welcome to {{ title }}!
   </h1>
+  <nav>
+    <ul>
+      <!-- default path is bikes - will be updated -->
+      <li><a routerLink = '/bikes'>Bikes</a></li>
+      <li><a routerLink = '/types'>Types</a></li>
+      <li><a routerLink = '/producents'>Producents</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
-  <div class="square bgred">
-    1st
-  </div>
-  <div class="square bgblue">
-    2nd
-  </div>
-  <div class="square bggreen">
-    3rd
-  </div>
-  <div class="square bgpurple">
-    4th
-  </div>
+  <!-- place of app insertion -->
+  <router-outlet></router-outlet>
 </main>

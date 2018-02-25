@@ -1,15 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
+
 import { ProducentsComponent } from './components/producents/producents.component';
 import { TypesComponent } from './components/types/types.component';
 import { BikesComponent } from './components/bikes/bikes.component';
+
 import { ProducentService } from './services/producent.service';
 import { BikeService } from './services/bike.service';
 import { TypeService } from './services/type.service';
+
 import { AppRoutingModule } from './/app-routing.module';
+
+import { BikeDetailsComponent } from './components/bike-details/bike-details.component';
+import { ProducentDetailsComponent } from './components/producent-details/producent-details.component';
+import { TypeDetailsComponent } from './components/type-details/type-details.component';
 
 
 @NgModule({
@@ -17,7 +23,10 @@ import { AppRoutingModule } from './/app-routing.module';
     AppComponent,
     ProducentsComponent,
     TypesComponent,
-    BikesComponent
+    BikesComponent,
+    BikeDetailsComponent,
+    ProducentDetailsComponent,
+    TypeDetailsComponent
   ],
   imports: [
     BrowserModule,
