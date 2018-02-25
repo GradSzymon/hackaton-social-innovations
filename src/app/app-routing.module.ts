@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 /* components */
-import { BikesComponent } from '../components/bikes/bikes.component';
-import { ProducentsComponent } from '../components/producents/producents.component';
-import { TypesComponent } from '../components/types/types.component';
+import { BikesComponent } from './components/bikes/bikes.component';
+import { ProducentsComponent } from './components/producents/producents.component';
+import { TypesComponent } from './components/types/types.component';
 
 /* for long URL typing */
 // import { BikeDetailsComponent } from '../bike-details/bike-details.component';

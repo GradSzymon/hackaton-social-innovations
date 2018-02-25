@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body, html
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* hr - tag definiujący zmianę tematyczną na stronie */
+hr.small
+{
+    max-width: 200px;
+}
+
+a.showall
+{
+    font-size: 20px;
+    color: blue;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+a.showall:hover
+{
+    color: aqua;
+}
+
+footer
+{
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
