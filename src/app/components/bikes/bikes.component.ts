@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import { Bike } from '/app/models/bike'; do ogarnięcia jak toto działa :<<<
+// import { Bike } from '/learning/src/app/models/bike';
 
 @Component({
   selector: 'app-bikes',

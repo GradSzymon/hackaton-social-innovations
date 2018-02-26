@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+/************* typical styling *************/
 body, html
 {
     width: 100%;
@@ -12,8 +13,36 @@ body, html
     margin: 0;
     padding: 0;
     font-size: 20px;
+    font-family: Cambria, Helvatica, sans-serif;
 }
 
+
+
+/************* headings styling *************/
+h1,h2,h3
+{
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+h1
+{
+  font-size: 48px;
+}
+
+h2
+{
+  font-size: 32px;
+}
+
+h3
+{
+  font-size: 24px;
+}
+
+
+
+/************* main styles *************/
 /* hr - tag definiujący zmianę tematyczną na stronie */
 /* hr.small
 {
@@ -29,6 +58,11 @@ a
 a:hover
 {
   color: #aa8cc5;
+}
+
+.text-center
+{
+  text-align: center;
 }
 
 /* a.showall
@@ -47,5 +81,6 @@ a.showall:hover
 footer
 {
     padding: 10px;
-    border-top: 1px solid #ddd;
+    font-size: 12px;
+    border-top: 1px solid black;
 }

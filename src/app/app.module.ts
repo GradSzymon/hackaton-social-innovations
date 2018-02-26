@@ -16,6 +16,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { BikeDetailsComponent } from './components/bike-details/bike-details.component';
 import { ProducentDetailsComponent } from './components/producent-details/producent-details.component';
 import { TypeDetailsComponent } from './components/type-details/type-details.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { TypeDetailsComponent } from './components/type-details/type-details.com
     BikesComponent,
     BikeDetailsComponent,
     ProducentDetailsComponent,
-    TypeDetailsComponent
+    TypeDetailsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

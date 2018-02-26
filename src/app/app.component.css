@@ -1,53 +1,35 @@
-/************* typical styling *************/
-body, html
+.parallax-container
 {
-  margin: 0;
-  padding: 0;
-  font-family: Cambria, Helvatica, sans-serif;
+	min-height: 200px;
+  background: url(/assets/images/forest.jpg) transparent;
+	padding: 10px;
+}
+.parallax-container header
+{
+	margin: 0px;
+  height: 180px;
+  line-height: 180px;
+	text-align: center;
+}
+.parallax-container header h1
+{
+  vertical-align: middle;
+  display: inline-block;
+  letter-spacing: 5px;
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-
-/************* headings styling *************/
-h1,h2,h3
+@media(max-width:767px)
 {
-  font-family: Arial, sans-serif;
-  color: white;
-}
-
-h1
-{
-  font-size: 48px;
-}
-
-h2
-{
-  font-size: 32px;
-}
-
-h3
-{
-  font-size: 24px;
-}
-
-
-/************* header styles *************/
-header
-{
-  width: 100%;
-  display: block;
-  z-index: -1;
-  margin: 0;
-  padding: 0;
-  background-color: red;
-}
-
-.bg-image
-{
-  width: 100%;
-  display: block;
-  margin: 0;
-  padding: 0;
+    .parallax-container .heading h1
+    {
+       letter-spacing: 3px;
+       font-size: 1.5em;
+    }
 }
 
 
@@ -55,46 +37,3 @@ header
 /************* main styles *************/
 /* divy mogły by być block element + float left albo inline-blocks */
 /* block lepiej oddaje to czym ten div będzie ;) */
-.square
-{
-  display: block;
-  width: 100px;
-  height: 100px;
-  float: left;
-  color: white;
-  text-align: center;
-  margin: 5em;
-}
-
-.square:hover
-{
-  border: 3px solid red;
-}
-
-.bgred
-{
-  background-color: red;
-}
-
-.bggreen
-{
-  background-color: green;
-}
-
-.bgpurple
-{
-  background-color: purple;
-}
-
-.bgblue
-{
-  background-color: blue;
-}
-
-
-
-/************* footer styles *************/
-footer
-{
-
-}
