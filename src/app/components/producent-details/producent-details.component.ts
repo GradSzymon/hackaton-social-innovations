@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-// import { Producent } from '/app/models/producent';
+import { Producent } from '../../models/producent';
 
 @Component({
   selector: 'app-producent-details',
@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./producent-details.component.css']
 })
 export class ProducentDetailsComponent implements OnInit {
-  // @Input() producent: Producent;
+  @Input() producent: Producent;
 
   constructor() { }
 

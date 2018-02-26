@@ -8,9 +8,9 @@ import { ProducentsComponent } from './components/producents/producents.componen
 import { TypesComponent } from './components/types/types.component';
 
 /* for long URL typing */
-// import { BikeDetailsComponent } from '../bike-details/bike-details.component';
-// import { ProducentDetailsComponent } from '../producent-details/producent-details.component';
-// import { TypeDetailsComponent } from '../type-details/type-details.component';
+import { BikeDetailsComponent } from './components/bike-details/bike-details.component';
+import { ProducentDetailsComponent } from './components/producent-details/producent-details.component';
+import { TypeDetailsComponent } from './components/type-details/type-details.component';
 
 /* ways of geting through app by url's */
 const routes: Routes = [
@@ -18,10 +18,10 @@ const routes: Routes = [
   { path:'dashboard', component: DashboardComponent },
   { path:'bikes', component: BikesComponent },
   { path:'producents', component: ProducentsComponent },
-  { path:'types', component: TypesComponent }
-  // { path:'bikes/detail/:id', component: BikeDetailsComponent },
-  // { path:'producents/detail/:id', component: ProducentDetailsComponent },
-  // { path:'types/detail/:id', component: TypeDetailsComponent }
+  { path:'types', component: TypesComponent },
+  { path:'bikes/detail/:id', component: BikeDetailsComponent },
+  { path:'producents/detail/:id', component: ProducentDetailsComponent },
+  { path:'types/detail/:id', component: TypeDetailsComponent }
 ]
 
 @NgModule({

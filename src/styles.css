@@ -1,10 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 /************* typical styling *************/
 body, html
 {
@@ -23,6 +16,7 @@ h1,h2,h3
 {
   font-family: Arial, sans-serif;
   color: white;
+  font-weight: bold;
 }
 
 h1
@@ -43,12 +37,6 @@ h3
 
 
 /************* main styles *************/
-/* hr - tag definiujący zmianę tematyczną na stronie */
-/* hr.small
-{
-    max-width: 200px;
-} */
-
 a
 {
   text-decoration: none;
@@ -60,27 +48,25 @@ a:hover
   color: #aa8cc5;
 }
 
+ul, ol
+{
+  list-style-type: none;
+}
+
 .text-center
 {
   text-align: center;
 }
-
-/* a.showall
-{
-    font-size: 20px;
-    color: blue;
-    padding: 10px;
-    padding-bottom: 30px;
-}
-
-a.showall:hover
-{
-    color: aqua;
-} */
 
 footer
 {
     padding: 10px;
     font-size: 12px;
     border-top: 1px solid black;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+main, menu, nav, section, summary
+{
+    display: block;
 }
