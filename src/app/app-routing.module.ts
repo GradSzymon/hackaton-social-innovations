@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 /* components */
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BikesComponent } from './components/bikes/bikes.component';
 import { ProducentsComponent } from './components/producents/producents.component';
 import { TypesComponent } from './components/types/types.component';
@@ -13,7 +14,8 @@ import { TypesComponent } from './components/types/types.component';
 
 /* ways of geting through app by url's */
 const routes: Routes = [
-  { path:'', redirectTo:'/bikes', pathMatch: 'full' }, /* home folder - default */
+  { path:'', redirectTo:'/dashboard', pathMatch: 'full' }, /* home folder - default */
+  { path:'dashboard', component: DashboardComponent },
   { path:'bikes', component: BikesComponent },
   { path:'producents', component: ProducentsComponent },
   { path:'types', component: TypesComponent }
