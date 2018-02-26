@@ -17,7 +17,6 @@
   display: inline-block;
   letter-spacing: 5px;
 	color: #ffffff;
-	font-size: 2em;
 	font-weight: bold;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -25,14 +24,12 @@
 
 @media(max-width:767px)
 {
-    .parallax-container .heading h1
+    .parallax-container header h1
     {
        letter-spacing: 3px;
        font-size: 1.5em;
     }
 }
-
-
 
 /************* main styles *************/
 /* divy mogły by być block element + float left albo inline-blocks */
