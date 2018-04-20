@@ -1,0 +1,47 @@
+{
+  "LOGIN": "Zaloguj",
+  "REGISTER": "Rejestracja",
+  "ADMIN-PANEL": "Admin Panel",
+  "HOME": {
+    "TITLE": "Witaj  w {{value}}",
+    "HELPFUL": "Tutaj masz troche pomocnych linków aby zacząć:"
+  },
+  "MENU": {
+    "EXAMPLE": "przykładowy tekst w menu"
+  },
+  "SEARCH": "Wyszukaj",
+  "WIDGET": {
+    "CALENDAR": {
+      "TITLE": "Terminarz",
+      "VERSION_SENIOR":
+        "Terminarz {{name}} \"MBG\" wersja Senior edycja ({{year}})",
+      "VERSION_JUNIOR":
+        "Terminarz {{name}} \"MBG\" wersja Junior edycja ({{year}})",
+      "SIGNIN_TO": "zgłoszenie uczestnictwa: {{time}}",
+      "PRELIMINARY": "etap wstępny (wewnątrzszkolny): {{time}}",
+      "FINALE": "etap finałowy: {{time}} ",
+      "AWARDS": "{{time}}: wręczenie nagród i dyplomów laureatom konkursu.",
+      "FORM": "Formularz Zgłoszeniowy",
+      "LOGIN": "Zaloguj, aby się zapisać!",
+      "SIGNIN": "Nie masz jeszcze konta? Załóż je!"
+    },
+    "SPONSORS": "Konkursowi patronuje i wspiera"
+  },
+
+  "LANGUAGE": "jezyk",
+  "PAGES": {
+    "HOME": "Strona główna",
+    "INFO": {
+      "GENERAL": "Informacje ogólne",
+      "RULES": "Regulamin"
+    },
+    "CONTACT": "Kontakt",
+    "CONTACT.ADDRESS": "Adres",
+    "CONTACT.CHAIRMAN": "Przewodniczący",
+    "CONTACT.TELEPHONE": "telefon",
+    "EDITIONS": "Edycje",
+    "EDITION": {
+      "REGION": "Region"
+    }
+  }
+}
